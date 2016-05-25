@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var cnt_down = prompt("Let's party! How long until the party?");
+var time = parseInt(cnt_down,10);
+if (time < 1){ 
+	console.log("PARTY NOW!!!")
+} else {
+	for(var num = time; num >= 1;num = num - 1)
+		console.log(num); 
+	    console.log("PARTY TIME!!!");
+}
+</script>
+</body>
+</html>
